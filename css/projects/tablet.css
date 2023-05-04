@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+
+  h5{
+    font-size:medium;
+  }
+
+  td{
+    font-size: small;
+  }
+  #avatar-position {
+    width: 5px;
+  }
+
+  #avatar {
+    display: none;
+  }
+  .more-info {
+    column-count: 2;
+    column-gap: 25px;
+  }
+
+  .certificate-content {
+    display: block;
+  }
+
+  .certificate-desc{
+    font-size: smaller;
+    padding-left: 0;
+    padding-top: 10px;
+  }
+}

@@ -1,0 +1,35 @@
+@media (max-width: 576px) {
+  section > .container {
+    font-size: small;
+  }
+  .more-info {
+    column-count: 1;
+  }
+
+  .certificate-wrapper {
+    display: block;
+  }
+
+  .certificate-wrapper > div:nth-child(n) {
+    border-left: none;
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  .certificate-wrapper > div:nth-child(2n + 3) {
+    padding-top: 0;
+    border-top: none;
+  }
+
+  .certificate-wrapper > div:last-child{
+    border: none;
+  }
+
+  #certificate img {
+    max-width: none;
+    width: 100%;
+  }
+
+  .certificate-desc {
+    padding-left: 10px;
+  }
+}
