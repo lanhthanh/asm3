@@ -2,7 +2,20 @@
   section > .container {
     font-size: small;
   }
-  #personal-info{
+
+  #nav-bar .container{
+    display: block;
+    text-align: left;
+    padding-left: 50px;
+  }
+
+  #nav-bar .container a {
+    border: none;
+    display: block;
+    padding: 5px;
+  }
+
+  #personal-info {
     padding-left: 5%;
   }
 
@@ -25,7 +38,7 @@
     border-top: none;
   }
 
-  .certificate-wrapper > div:last-child{
+  .certificate-wrapper > div:last-child {
     border: none;
   }
 
